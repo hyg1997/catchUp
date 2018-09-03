@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".OnboardingActivity"
+    tools:context=".viewcontrollers.activities.OnboardingActivity"
     tools:showIn="@layout/activity_onboarding">
 
     <TextView
@@ -22,6 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/default_margin"
+        style="@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
         android:text="@string/onboarding_start_button_title"
         app:layout_constraintBottom_toBottomOf="parent" />
 
